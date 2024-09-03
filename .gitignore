@@ -1,0 +1,16 @@
+# Xcode specific
+.DS_Store
+build/
+DerivedData/
+*.xcuserdatad
+*.xcuserstate
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+
+# macOS specific
+*.DS_Store
+
+# Swift Package Manager
+/.build/
